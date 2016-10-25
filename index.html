@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0061)http://demo.jb51.net/js/2015/js-province-city-cho-menu-codes/ -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>js全国省市二级联动下拉选择菜单</title>
+</head>
+<body>
+
+<script language="javascript" src="jquery-1.7.1.js"></script>
+<script language="javascript" src="wxcity.js"></script>
+<script type="text/javascript">
+   $(function(){
+   		//$("#citylist").initcity();  //默认不设置值
+   		$("#citylist").initcity({
+   			provalue:'北京',
+   			cityvalue:'东城'
+   		});
+   });
+</script>
+ 
+ <span id="citylist">
+ 地区标签:
+ <select class="prov"  >
+ </select>
+ <select class="city"  ></select>
+ </span>
+
+</body>
+
+</html>
